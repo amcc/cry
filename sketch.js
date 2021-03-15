@@ -49,7 +49,7 @@ function setup() {
     isStatic: true
   }
   
-  dome = Bodies.circle(width / 2, height * 3/5, 100, matterOptions);
+  dome = Bodies.circle(width / 2, height * 3/5, height/4, matterOptions);
 
   // add the ground to the world
   World.add(world, [dome])
